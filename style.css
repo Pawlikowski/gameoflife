@@ -1,0 +1,88 @@
+html {
+	background-color: #5A567A;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	cursor: crosshair;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: -250px;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	margin: auto;
+}
+
+.header:hover {
+	top: 0px;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
+	padding: 5px;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	background-color: #4F5F73;
+}
+
+.container > div {
+	border: 1px solid black;
+	width: 10px;
+	height: 10px;
+	-webkit-transition-duration: .1s;
+	transition-duration: .1s;
+	border-radius: 100%;
+	background-color: white;
+	box-shadow: 0px 0px 11px -1px white;
+	box-sizing: border-box;
+}
+
+#buttons {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+button {
+	background-color: #4C7368;
+	padding: 10px;
+	border: 1px solid #4F5F73;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1.1em;
+}
+
+button:hover {
+	border: 1px inset #4F5F73;
+}
+
+p {
+	text-align: center;
+}
+
+#zeruj {
+	margin-top: 40px;
+}
+
+button {
+	cursor: pointer;
+}
